@@ -4,6 +4,7 @@ import MenuPage from './Menu.jsx';
 import SiteHeader from './SiteHeader.jsx';
 import SplitText from './components/react-bits/SplitText.tsx';
 import { motion, useInView, useReducedMotion, useScroll, useTransform } from 'framer-motion';
+import { siteUrl } from './lib/siteUrl.js';
 const AdminDemoRoute = lazy(() => import('./admin/AdminDemo.jsx').then((module) => ({ default: module.AdminDemoRoute })));
 import serialKopiCard from '../Home/Category-section/assets/card/serial kopi.webp';
 import serialNonKopiCard from '../Home/Category-section/assets/card/serial non-kopi.webp';
@@ -26,8 +27,14 @@ import aboutExterior from '../Home/AboutUs-section/assets/img/halaman ruma.webp'
 import aboutInterior from '../Home/AboutUs-section/assets/img/indoor ruma.jpg';
 import aboutCounter from '../Home/AboutUs-section/assets/img/kasir ruma.jpg';
 
-const A = '/assets/';
+const A = `${import.meta.env.BASE_URL}assets/`;
 const mapUrl = 'https://maps.google.com/?q=Ruma+Coffee%2C+Baleendah%2C+Bandung%2C+Jawa+Barat+40111';
+
+function getRoute(pathname) {
+  const base = import.meta.env.BASE_URL;
+  const path = pathname.startsWith(base) ? `/${pathname.slice(base.length)}` : pathname;
+  return path.startsWith('/projects/ruma-coffee/admin-demo') ? 'admin' : path === '/menu' ? 'menu' : 'home';
+}
 
 const drinks = [
   { name: 'Serial Kopi', items: [['Aren Latte', 'aren-latte-Dba9l82l.webp'], ['Lemon Coffee', 'lemon-coffee-CFICvXBv.webp'], ['Matcha Latte', 'matcha-latte-DVgaOEKo.webp'], ['Vanilla Latte', 'vanilla-latte-DMtXvjBl.webp']] },
@@ -612,7 +619,7 @@ function CategoryGroup({ title, items, icon, expanded, onToggle }) {
 
 function App() {
   const [openMenu, setOpenMenu] = useState(null);
-  const [route, setRoute] = useState(window.location.pathname.startsWith('/projects/ruma-coffee/admin-demo') ? 'admin' : window.location.pathname === '/menu' ? 'menu' : 'home');
+  const [route, setRoute] = useState(() => getRoute(window.location.pathname));
   const [communityVisible, setCommunityVisible] = useState(false);
   const communityRef = React.useRef(null);
   const aboutTrackRef = useRef(null);
@@ -630,13 +637,13 @@ function App() {
   const toggleMenu = (menu) => setOpenMenu((current) => current === menu ? null : menu);
 
   useEffect(() => {
-    const syncRoute = () => setRoute(window.location.pathname.startsWith('/projects/ruma-coffee/admin-demo') ? 'admin' : window.location.pathname === '/menu' ? 'menu' : 'home');
+    const syncRoute = () => setRoute(getRoute(window.location.pathname));
     window.addEventListener('popstate', syncRoute);
     return () => window.removeEventListener('popstate', syncRoute);
   }, []);
 
   const navigate = (path, anchor = '') => {
-    window.history.pushState({}, '', `${path}${anchor}`);
+    window.history.pushState({}, '', `${siteUrl(path)}${anchor}`);
     setRoute(path === '/menu' ? 'menu' : 'home');
     window.scrollTo(0, 0);
     if (anchor) window.setTimeout(() => document.querySelector(anchor)?.scrollIntoView({ behavior: 'smooth' }), 40);
@@ -875,7 +882,7 @@ function App() {
           <ScrollReveal tag="p" text={'Nikmati jedanya. Rasakan hangatnya. Temukan kembali dirimu,\nsatu cangkir dalam satu waktu.'} splitBy="words" effect="fade" mode="scrub" stagger={0.05} duration={0.8} baseOpacity={0.1} baseRotation={3} baseOffset={0} enableBlur blurStrength={4} />
           <div className="closing__links">
             <a className="button button--outline gooey-button" href={mapUrl} target="_blank" rel="noreferrer"><span className="gooey-button__label">Find Your Way to RUMA</span><GooeyBlobs /></a>
-            <a className="button button--outline gooey-button" href="/menu" onClick={(event) => { event.preventDefault(); navigate('/menu'); }}><span className="gooey-button__label">Explore Our Menu</span><GooeyBlobs /></a>
+            <a className="button button--outline gooey-button" href={siteUrl('/menu')} onClick={(event) => { event.preventDefault(); navigate('/menu'); }}><span className="gooey-button__label">Explore Our Menu</span><GooeyBlobs /></a>
           </div>
         </section>
 
@@ -905,7 +912,7 @@ function App() {
             </div>
             <nav className="footer__nav" aria-label="Navigasi footer">
               <h2>EXPLORE:</h2>
-              <a href="#about">Our Story</a><a href="#craft">Our Craft</a><a href="/menu" onClick={(event) => { event.preventDefault(); navigate('/menu'); }}>Menu &amp; Order</a><a href="#visit">Visit Us</a>
+              <a href="#about">Our Story</a><a href="#craft">Our Craft</a><a href={siteUrl('/menu')} onClick={(event) => { event.preventDefault(); navigate('/menu'); }}>Menu &amp; Order</a><a href="#visit">Visit Us</a>
             </nav>
             <div className="footer__contact">
               <h2>COME BY:</h2>
