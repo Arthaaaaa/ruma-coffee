@@ -28,6 +28,9 @@ import aboutInterior from '../Home/AboutUs-section/assets/img/indoor ruma.jpg';
 import aboutCounter from '../Home/AboutUs-section/assets/img/kasir ruma.jpg';
 
 const A = `${import.meta.env.BASE_URL}assets/`;
+const loadingAnimation = `${A}ruma-loading.webp`;
+const logoAnimation = `${A}ruma-logo-intro.webp`;
+const logoFinalFrame = `${A}ruma-logo-intro-final.webp`;
 const mapUrl = 'https://maps.google.com/?q=Ruma+Coffee%2C+Baleendah%2C+Bandung%2C+Jawa+Barat+40111';
 
 function getRoute(pathname) {
@@ -73,6 +76,17 @@ const heroDrinks = [
   { file: 'thaitea-DdjwyBec.webp', name: 'Thai tea dingin' },
 ];
 
+function waitForHeroImages() {
+  return Promise.all(heroDrinks.map(({ file }) => new Promise((resolve) => {
+    const image = new Image();
+    const finish = () => resolve();
+    image.onload = finish;
+    image.onerror = finish;
+    image.src = `${A}${file}`;
+    if (image.complete) finish();
+  })));
+}
+
 const benefits = [
   { title: 'Ruang untuk jeda', copy: 'Singgah sebentar atau duduk lebih lama, sesuai waktumu.', icon: pauseIcon },
   { title: 'Pilihan satu cangkir', copy: 'Kopi, teh, squash, dan susu hadir untuk selera yang berbeda.', icon: onecupIcon },
@@ -95,6 +109,53 @@ const splitTextProps = {
   rootMargin: '-100px',
   textAlign: 'center'
 };
+
+function IntroSequence() {
+  const [phase, setPhase] = useState(() =>
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'done' : 'loading'
+  );
+  const [loadingReady, setLoadingReady] = useState(false);
+  const [logoReady, setLogoReady] = useState(false);
+
+  useEffect(() => {
+    if (phase === 'loading' && loadingReady) {
+      const timer = window.setTimeout(() => setPhase('logo-loading'), 5200);
+      return () => window.clearTimeout(timer);
+    }
+    if (phase === 'logo' && logoReady) {
+      const timer = window.setTimeout(() => {
+        waitForHeroImages().then(() => setPhase('revealing'));
+      }, 4300);
+      return () => window.clearTimeout(timer);
+    }
+    return undefined;
+  }, [phase, loadingReady, logoReady]);
+
+  if (phase === 'done') return null;
+
+  return (
+    <div
+      className={`intro-sequence${phase === 'revealing' ? ' intro-sequence--revealing' : ''}`}
+      aria-hidden="true"
+      onAnimationEnd={(event) => {
+        if (event.target === event.currentTarget) setPhase('done');
+      }}
+    >
+      {phase !== 'revealing' && <img className={`intro-sequence__artwork${phase === 'loading' || phase === 'logo-loading' ? ' is-visible' : ''}`} src={loadingAnimation} alt="" onLoad={() => setLoadingReady(true)} onError={() => setPhase('logo-loading')} />}
+      {(phase === 'logo-loading' || phase === 'logo') && <img className={`intro-sequence__artwork${phase === 'logo' ? ' is-visible' : ''}`} src={logoAnimation} alt="" onLoad={() => { setLogoReady(true); setPhase('logo'); }} onError={() => { waitForHeroImages().then(() => setPhase('revealing')); }} />}
+      {phase === 'revealing' && <img className="intro-sequence__artwork is-visible" src={logoFinalFrame} alt="" />}
+    </div>
+  );
+}
+
+function AdminLoadingState() {
+  return (
+    <div className="admin-loading-state" role="status">
+      <img src={loadingAnimation} className="admin-loading-state__artwork" alt="" />
+      <span>Memuat dashboard…</span>
+    </div>
+  );
+}
 
 function LeafDivider({ className = '' }) {
   return <img className={`leaf-divider ${className}`} src={`${A}daun menjalar-BxMyafDX.svg`} alt="" aria-hidden="true" />;
@@ -667,11 +728,12 @@ function App() {
     return () => observer.disconnect();
   }, []);
 
-  if (route === 'menu') return <MenuPage onHome={(anchor) => navigate('/', anchor)} onNavigate={navigate} />;
-  if (route === 'admin') return <Suspense fallback={<div style={{ padding: 24, color: '#493329', background: '#f5f1e9' }}>Memuat dashboard…</div>}><AdminDemoRoute /></Suspense>;
+  if (route === 'menu') return <><IntroSequence /><MenuPage onHome={(anchor) => navigate('/', anchor)} onNavigate={navigate} /></>;
+  if (route === 'admin') return <><IntroSequence /><Suspense fallback={<AdminLoadingState />}><AdminDemoRoute /></Suspense></>;
 
   return (
     <>
+      <IntroSequence />
       <svg className="gooey-filter-defs" aria-hidden="true" focusable="false">
         <defs>
           <filter id="gooey-button-filter">

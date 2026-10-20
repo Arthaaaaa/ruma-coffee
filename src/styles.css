@@ -237,11 +237,71 @@ button {
 .hero__headline {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: max-content;
   max-width: 100%;
   margin: clamp(38px, 7vh, 92px) auto 0;
   text-align: center;
   line-height: .78;
+}
+
+.intro-sequence {
+  position: fixed;
+  z-index: 10000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #fffdf9;
+  transform: translateY(0);
+}
+
+.intro-sequence__artwork {
+  grid-area: 1 / 1;
+  display: block;
+  width: min(66vw, 260px);
+  height: min(66vw, 260px);
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 360ms ease;
+}
+
+.intro-sequence__artwork.is-visible {
+  opacity: 1;
+}
+
+.intro-sequence--revealing {
+  animation: intro-curtain-lift 900ms cubic-bezier(.76, 0, .24, 1) forwards;
+  pointer-events: none;
+}
+
+@keyframes intro-curtain-lift {
+  to { transform: translateY(-100%); }
+}
+
+.admin-loading-state {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  justify-items: center;
+  gap: 12px;
+  color: #493329;
+  background: #fffdf9;
+}
+
+.admin-loading-state__artwork {
+  display: block;
+  width: min(150px, 40vw);
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-sequence--revealing {
+    animation-duration: 1ms;
+  }
 }
 
 .hero__headline p {
