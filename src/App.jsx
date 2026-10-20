@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react';
+import React, { Suspense, lazy, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import MenuPage from './Menu.jsx';
 import SiteHeader from './SiteHeader.jsx';
@@ -680,9 +680,14 @@ function CategoryGroup({ title, items, icon, expanded, onToggle }) {
 
 function App() {
   const [openMenu, setOpenMenu] = useState(null);
-  const [route, setRoute] = useState(() => getRoute(window.location.pathname));
+  const [appLocation, setAppLocation] = useState(() => ({
+    pathname: window.location.pathname,
+    hash: window.location.hash,
+  }));
+  const route = getRoute(appLocation.pathname);
   const [communityVisible, setCommunityVisible] = useState(false);
   const communityRef = React.useRef(null);
+  const previousPathnameRef = useRef(null);
   const aboutTrackRef = useRef(null);
   const visitImageRef = useRef(null);
   const aboutFirstMarkerRef = useRef(null);
@@ -697,17 +702,52 @@ function App() {
   useScrollParallax(visitImageRef, 22, route === 'home');
   const toggleMenu = (menu) => setOpenMenu((current) => current === menu ? null : menu);
 
-  useEffect(() => {
-    const syncRoute = () => setRoute(getRoute(window.location.pathname));
-    window.addEventListener('popstate', syncRoute);
-    return () => window.removeEventListener('popstate', syncRoute);
+  useLayoutEffect(() => {
+    const { history } = window;
+    const supportsScrollRestoration = 'scrollRestoration' in history;
+    const previousScrollRestoration = supportsScrollRestoration ? history.scrollRestoration : undefined;
+    if (supportsScrollRestoration) history.scrollRestoration = 'manual';
+
+    const syncLocation = () => {
+      const nextLocation = { pathname: window.location.pathname, hash: window.location.hash };
+      setAppLocation((current) =>
+        current.pathname === nextLocation.pathname && current.hash === nextLocation.hash ? current : nextLocation,
+      );
+    };
+
+    window.addEventListener('popstate', syncLocation);
+    return () => {
+      window.removeEventListener('popstate', syncLocation);
+      if (supportsScrollRestoration) history.scrollRestoration = previousScrollRestoration;
+    };
   }, []);
 
+  useLayoutEffect(() => {
+    const routeChanged = previousPathnameRef.current !== appLocation.pathname;
+    previousPathnameRef.current = appLocation.pathname;
+    if (routeChanged) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+
+    if (!appLocation.hash) return undefined;
+    const anchor = appLocation.hash.slice(1);
+    const timer = window.setTimeout(() => {
+      document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth' });
+    }, 40);
+    return () => window.clearTimeout(timer);
+  }, [appLocation.pathname, appLocation.hash]);
+
   const navigate = (path, anchor = '') => {
-    window.history.pushState({}, '', `${siteUrl(path)}${anchor}`);
-    setRoute(path === '/menu' ? 'menu' : 'home');
-    window.scrollTo(0, 0);
-    if (anchor) window.setTimeout(() => document.querySelector(anchor)?.scrollIntoView({ behavior: 'smooth' }), 40);
+    const href = `${siteUrl(path)}${anchor}`;
+    const currentPathname = window.location.pathname;
+    const nextLocation = new URL(href, window.location.href);
+    window.history.pushState({}, '', href);
+
+    if (nextLocation.pathname !== currentPathname) {
+      setAppLocation({ pathname: nextLocation.pathname, hash: nextLocation.hash });
+    } else if (anchor) {
+      window.setTimeout(() => {
+        document.getElementById(anchor.slice(1))?.scrollIntoView({ behavior: 'smooth' });
+      }, 40);
+    }
   };
 
   useEffect(() => {
