@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Muru — Open Fold</title>
+  <desc id="desc">A rounded, asymmetrical creature with an embracing shoulder fold and an alert, welcoming face.</desc>
+  <g id="character-muru" transform="translate(14 14) scale(.93)">
+    <path id="body" fill="#A95F43" d="M123 300c-33-14-53-45-48-79 6-38 35-67 75-78 9-34 40-56 75-53 35 3 58 30 55 64 34 6 60 32 61 65 1 35-23 62-58 74-38 20-117 22-160 7Z"/>
+    <path id="curl" fill="#A95F43" d="M120 265c-21 25-51 31-70 17-17-13-20-35-8-53 3 21 16 32 32 31 14-1 26-11 34-25 7 8 11 18 12 30Z"/>
+    <path id="fold" fill="#D99A6B" d="M103 248c21 10 45 12 68 5 28-8 49-26 59-52 6-15 8-31 4-48 18 12 29 31 29 52 0 27-14 52-37 69-20 15-47 23-74 21-23-2-42-11-54-26-8-9-13-19-14-31 6 4 12 7 19 10Z"/>
+    <g id="face">
+      <path id="brow-left" d="M127 177q18-15 39-7" fill="none" stroke="#382722" stroke-width="8" stroke-linecap="round"/>
+      <path id="brow-right" d="M208 169q20-10 37 3" fill="none" stroke="#382722" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="148" cy="202" rx="18" ry="23" fill="#FFF4E4"/>
+      <ellipse cx="226" cy="198" rx="17" ry="22" fill="#FFF4E4"/>
+      <ellipse cx="154" cy="205" rx="10" ry="15" fill="#382722"/>
+      <ellipse cx="222" cy="202" rx="10" ry="15" fill="#382722"/>
+      <circle cx="157" cy="199" r="4" fill="#FFF4E4"/>
+      <circle cx="225" cy="196" r="4" fill="#FFF4E4"/>
+      <path id="mouth" d="M166 239q21 17 42 0" fill="none" stroke="#382722" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

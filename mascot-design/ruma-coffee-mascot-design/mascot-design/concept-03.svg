@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="120 50 560 560" role="img" aria-labelledby="title desc">
+  <title id="title">Ruma Coffee mascot concept 3: PIP</title>
+  <desc id="desc">A forward-leaning bean, animated by asymmetric eyes, one lifted brow and a knowing half-smile. Transparent background; clean flat vector artwork.</desc>
+  <g id="artwork"><g id="mascot-pip" role="img" aria-label="PIP, an anthropomorphic coffee bean mascot for Ruma Coffee">
+      <g id="body-and-groove"><path id="bean-silhouette" d="M382 103 C402 102 420 108 433 119 C485 124 527 166 543 226 C565 309 542 392 501 459 C462 523 408 565 365 574 C308 546 267 499 245 433 C218 350 224 256 263 184 C291 132 336 109 382 103 Z" fill="#70432F"/><path id="left-bean-light" d="M378 120 C337 125 301 153 277 199 C248 255 245 335 263 400 C278 454 308 500 353 533 C321 484 306 426 311 369 C315 301 340 236 378 190 C390 174 394 143 378 120 Z" fill="#8C5B3F" opacity=".65"/><g id="bean-groove"><path d="M397 132 C360 171 347 206 355 235 C361 257 373 275 372 299 C370 322 382 340 386 356 C394 379 399 397 393 417 C386 441 387 463 385 486 C383 514 405 543 427 558" fill="none" stroke="#EAD5B5" stroke-width="28" stroke-linecap="round"/><path d="M397 132 C360 171 347 206 355 235 C361 257 373 275 372 299 C370 322 382 340 386 356 C394 379 399 397 393 417 C386 441 387 463 385 486 C383 514 405 543 427 558" fill="none" stroke="#482C21" stroke-width="9.5" stroke-linecap="round"/></g><path id="signature-seed-mark" d="M494 418 C502 406 508 393 509 381" fill="none" stroke="#BE895A" stroke-width="8" stroke-linecap="round"/></g>
+      <g id="face-pip">
+          <path id="brow-left" d="M279 252 C296 235 320 232 341 246" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round"/>
+          <path id="brow-right" d="M386 225 C407 204 438 211 457 234" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round"/>
+          <path id="eye-left" d="M280 293 C283 271 300 257 321 260 C343 263 355 280 353 301 C351 322 335 337 315 334 C294 332 279 314 280 293 Z" fill="#FFF4E0"/>
+          <path id="eye-right" d="M389 279 C393 255 413 243 436 249 C459 255 471 275 466 298 C462 320 445 333 424 328 C402 324 386 302 389 279 Z" fill="#FFF4E0"/>
+          <ellipse id="pupil-left" cx="327" cy="293" rx="18" ry="23" fill="#2B1B17"/>
+          <ellipse id="pupil-right" cx="438" cy="280" rx="18" ry="23" fill="#2B1B17"/>
+          <circle cx="321" cy="284" r="6.3" fill="#FFFCF3"/><circle cx="432" cy="271" r="6.3" fill="#FFFCF3"/>
+          <circle cx="334" cy="302" r="2.7" fill="#FFFCF3"/><circle cx="445" cy="289" r="2.7" fill="#FFFCF3"/>
+          <path id="knowing-smile" d="M338 376 C362 393 389 392 416 369 C414 393 394 409 370 407 C354 405 343 394 338 376 Z" fill="#2B1B17"/>
+          <path id="smile-glint" d="M363 397 C380 403 398 393 407 385" fill="none" stroke="#FFF4E0" stroke-width="5.5" stroke-linecap="round"/>
+          <path id="cheek-mark" d="M271 353 C282 346 293 349 300 356" fill="none" stroke="#BE895A" stroke-width="6" stroke-linecap="round" opacity=".88"/>
+        </g>
+    </g></g>
+</svg>

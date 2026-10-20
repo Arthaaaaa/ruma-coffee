@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1160" viewBox="0 0 1800 1160" role="img" aria-labelledby="sheet-title sheet-desc">
+<title id="sheet-title">Ruma Coffee — three mascot directions</title>
+<desc id="sheet-desc">A neutral comparison sheet showing Rumi, Nook, and Pip, three distinct coffee-bean mascot concepts.</desc>
+<rect id="sheet-background" width="1800" height="1160" fill="#F4F0E8" />
+<g id="sheet-header" font-family="Avenir Next, Montserrat, Arial, sans-serif" fill="#2B1B17">
+  <text x="74" y="65" font-size="15" font-weight="700" letter-spacing="3.5" fill="#826A58">RUMA COFFEE  /  CHARACTER DEVELOPMENT</text>
+  <text x="72" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="49" font-weight="normal" letter-spacing="-1.2">Three ways to feel at home</text>
+  <text x="74" y="169" font-size="18" fill="#77675A">Three distinct bean silhouettes. One shared promise: you can slow down here.</text>
+  <path d="M1534 73 H1726" stroke="#C9BBA9" stroke-width="1.5" />
+  <text x="1726" y="100" font-size="12" letter-spacing="2" text-anchor="end" fill="#826A58">ROUND 01</text>
+  <text x="1726" y="124" font-size="14" text-anchor="end" fill="#77675A">DEFAULT EXPRESSION</text>
+</g>
+<g id="card-1">
+  <rect x="72" y="228" width="520" height="856" rx="21" fill="#FCFAF5" stroke="#DED4C6" stroke-width="1.4" />
+  <text x="102" y="267" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.1" fill="#8C7561">01 / THE WELCOME BEAN</text>
+  <g id="illustration-1" transform="translate(-44 171) scale(0.94)"><g id="c1-mascot-rumi" role="img" aria-label="RUMI, an anthropomorphic coffee bean mascot for Ruma Coffee">
+      <g id="c1-body-and-groove"><path id="c1-bean-silhouette" d="M414 102 C491 91 570 145 591 232 C612 321 583 424 518 493 C472 541 417 579 366 570 C294 555 232 501 208 420 C181 330 200 231 247 165 C289 108 348 110 414 102 Z" fill="#80503A" /><path id="c1-left-bean-light" d="M389 119 C331 120 279 155 246 209 C214 263 205 338 226 405 C243 463 278 507 320 528 C281 478 270 414 280 355 C290 287 323 230 365 192 C385 173 398 146 389 119 Z" fill="#98684B" opacity=".62" /><g id="c1-bean-groove"><path d="M394 127 C356 176 345 210 362 246 C374 269 379 292 370 317 C364 337 380 353 389 372 C399 395 385 421 377 448 C369 482 389 518 414 545" fill="none" stroke="#E7CDA9" stroke-width="27" stroke-linecap="round" /><path d="M394 127 C356 176 345 210 362 246 C374 269 379 292 370 317 C364 337 380 353 389 372 C399 395 385 421 377 448 C369 482 389 518 414 545" fill="none" stroke="#5A3428" stroke-width="9" stroke-linecap="round" /></g><path id="c1-signature-seed-mark" d="M510 187 C520 199 524 213 518 226" fill="none" stroke="#C48A5D" stroke-width="8" stroke-linecap="round" /></g>
+      <g id="c1-face-welcome">
+          <path id="c1-brow-left" d="M284 253 C302 232 331 229 354 244" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round" />
+          <path id="c1-brow-right" d="M405 242 C426 225 453 230 471 248" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round" />
+          <path id="c1-eye-left" d="M286 296 C289 274 307 259 329 262 C351 264 365 281 364 302 C363 324 346 339 325 337 C303 336 287 318 286 296 Z" fill="#FFF5E5" />
+          <path id="c1-eye-right" d="M405 296 C407 274 425 260 447 263 C469 266 481 283 479 304 C477 326 461 340 440 337 C418 335 403 318 405 296 Z" fill="#FFF5E5" />
+          <ellipse id="c1-pupil-left" cx="330" cy="300" rx="19" ry="24" fill="#2B1B17" />
+          <ellipse id="c1-pupil-right" cx="446" cy="301" rx="19" ry="24" fill="#2B1B17" />
+          <circle cx="324" cy="291" r="6.5" fill="#FFFCF3" /><circle cx="440" cy="292" r="6.5" fill="#FFFCF3" />
+          <circle cx="337" cy="309" r="2.7" fill="#FFFCF3" opacity=".92" /><circle cx="453" cy="310" r="2.7" fill="#FFFCF3" opacity=".92" />
+          <path id="c1-smile" d="M347 378 C368 397 397 401 420 379 C416 406 390 418 370 408 C357 402 350 391 347 378 Z" fill="#2B1B17" />
+          <path id="c1-smile-glint" d="M363 399 C379 408 397 405 408 394" fill="none" stroke="#FFF5E5" stroke-width="5.5" stroke-linecap="round" />
+          <path id="c1-left-cheek" d="M274 355 C284 348 296 350 302 358" fill="none" stroke="#C48A5D" stroke-width="6" stroke-linecap="round" opacity=".82" />
+          <path id="c1-right-cheek" d="M475 356 C485 350 496 353 501 361" fill="none" stroke="#C48A5D" stroke-width="6" stroke-linecap="round" opacity=".82" />
+        </g>
+    </g></g>
+  <path d="M102 783 H562" stroke="#E4DBCF" stroke-width="1.2" />
+  <text x="102" y="834" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#2B1B17">Rumi</text>
+  <text x="562" y="829" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.3" text-anchor="end" fill="#8C7561">CONCEPT 01</text>
+  <text x="102" y="872" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="16" fill="#5B4739">Warm, attentive, unmistakably welcoming.</text>
+  <text x="102" y="913" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="12.5" fill="#8C7561">SIGNATURE</text>
+  <text x="102" y="937" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="15" fill="#5B4739">Fluid S-groove / upright silhouette</text>
+</g>
+<g id="card-2">
+  <rect x="640" y="228" width="520" height="856" rx="21" fill="#FCFAF5" stroke="#DED4C6" stroke-width="1.4" />
+  <text x="670" y="267" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.1" fill="#8C7561">02 / THE SOFT LANDING</text>
+  <g id="illustration-2" transform="translate(524 171) scale(0.94)"><g id="c2-mascot-nook" role="img" aria-label="NOOK, an anthropomorphic coffee bean mascot for Ruma Coffee">
+      <g id="c2-body-and-groove"><path id="c2-bean-silhouette" d="M393 142 C440 141 470 163 489 196 C524 194 556 212 575 244 C600 286 594 342 568 387 C539 439 478 481 413 494 C341 509 268 481 222 435 C181 394 177 335 195 290 C211 248 244 221 286 213 C306 172 343 148 393 142 Z" fill="#5E392B" /><path id="c2-left-bean-light" d="M379 160 C338 166 309 193 291 226 C251 238 221 272 214 310 C204 358 222 400 255 433 C284 462 325 477 359 475 C308 443 283 406 282 360 C280 316 305 268 339 238 C360 220 382 187 379 160 Z" fill="#79503A" opacity=".65" /><g id="c2-bean-groove"><path d="M413 162 C373 208 368 244 384 270 C400 293 402 315 385 337 C391 355 401 368 405 386 C411 405 411 423 411 441 C412 460 404 481 411 499" fill="none" stroke="#E6D1B4" stroke-width="31" stroke-linecap="round" /><path d="M413 162 C373 208 368 244 384 270 C400 293 402 315 385 337 C391 355 401 368 405 386 C411 405 411 423 411 441 C412 460 404 481 411 499" fill="none" stroke="#41281F" stroke-width="10" stroke-linecap="round" /></g><path id="c2-signature-seed-mark" d="M237 404 C247 416 260 425 273 429" fill="none" stroke="#9BAA8D" stroke-width="8" stroke-linecap="round" /></g>
+      <g id="c2-face-nook">
+          <path id="c2-brow-left" d="M262 276 C283 255 310 254 331 269" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round" />
+          <path id="c2-brow-right" d="M430 270 C450 251 478 256 496 276" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round" />
+          <path id="c2-eye-left" d="M260 310 C262 287 279 274 301 277 C323 280 337 297 333 319 C329 341 313 352 292 348 C271 344 258 330 260 310 Z" fill="#FFF2DD" />
+          <path id="c2-eye-right" d="M428 308 C431 285 449 272 472 276 C494 280 507 297 503 319 C499 340 482 351 461 347 C439 343 426 329 428 308 Z" fill="#FFF2DD" />
+          <ellipse id="c2-pupil-left" cx="302" cy="313" rx="19" ry="23" fill="#2B1B17" />
+          <ellipse id="c2-pupil-right" cx="470" cy="312" rx="19" ry="23" fill="#2B1B17" />
+          <circle cx="296" cy="304" r="6.5" fill="#FFFCF3" /><circle cx="464" cy="303" r="6.5" fill="#FFFCF3" />
+          <circle cx="309" cy="322" r="2.7" fill="#FFFCF3" /><circle cx="477" cy="321" r="2.7" fill="#FFFCF3" />
+          <path id="c2-wide-smile" d="M336 379 C360 402 390 412 417 404 C439 398 454 386 464 376 C462 406 436 428 404 431 C371 433 347 410 336 379 Z" fill="#2B1B17" />
+          <path id="c2-smile-glint" d="M363 410 C389 426 423 420 442 402" fill="none" stroke="#FFF2DD" stroke-width="6" stroke-linecap="round" />
+          <path id="c2-left-cheek" d="M241 365 C252 357 264 359 271 366" fill="none" stroke="#9BAA8D" stroke-width="6" stroke-linecap="round" opacity=".9" />
+          <path id="c2-right-cheek" d="M498 364 C509 358 520 361 526 369" fill="none" stroke="#9BAA8D" stroke-width="6" stroke-linecap="round" opacity=".9" />
+        </g>
+    </g></g>
+  <path d="M670 783 H1130" stroke="#E4DBCF" stroke-width="1.2" />
+  <text x="670" y="834" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#2B1B17">Nook</text>
+  <text x="1130" y="829" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.3" text-anchor="end" fill="#8C7561">CONCEPT 02</text>
+  <text x="670" y="872" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="16" fill="#5B4739">Grounded and generous, with a face that feels held.</text>
+  <text x="670" y="913" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="12.5" fill="#8C7561">SIGNATURE</text>
+  <text x="670" y="937" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="15" fill="#5B4739">Cradling cleft / wide grounded shape</text>
+</g>
+<g id="card-3">
+  <rect x="1208" y="228" width="520" height="856" rx="21" fill="#FCFAF5" stroke="#DED4C6" stroke-width="1.4" />
+  <text x="1238" y="267" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.1" fill="#8C7561">03 / THE LITTLE SPARK</text>
+  <g id="illustration-3" transform="translate(1092 171) scale(0.94)"><g id="c3-mascot-pip" role="img" aria-label="PIP, an anthropomorphic coffee bean mascot for Ruma Coffee">
+      <g id="c3-body-and-groove"><path id="c3-bean-silhouette" d="M382 103 C402 102 420 108 433 119 C485 124 527 166 543 226 C565 309 542 392 501 459 C462 523 408 565 365 574 C308 546 267 499 245 433 C218 350 224 256 263 184 C291 132 336 109 382 103 Z" fill="#70432F" /><path id="c3-left-bean-light" d="M378 120 C337 125 301 153 277 199 C248 255 245 335 263 400 C278 454 308 500 353 533 C321 484 306 426 311 369 C315 301 340 236 378 190 C390 174 394 143 378 120 Z" fill="#8C5B3F" opacity=".65" /><g id="c3-bean-groove"><path d="M397 132 C360 171 347 206 355 235 C361 257 373 275 372 299 C370 322 382 340 386 356 C394 379 399 397 393 417 C386 441 387 463 385 486 C383 514 405 543 427 558" fill="none" stroke="#EAD5B5" stroke-width="28" stroke-linecap="round" /><path d="M397 132 C360 171 347 206 355 235 C361 257 373 275 372 299 C370 322 382 340 386 356 C394 379 399 397 393 417 C386 441 387 463 385 486 C383 514 405 543 427 558" fill="none" stroke="#482C21" stroke-width="9.5" stroke-linecap="round" /></g><path id="c3-signature-seed-mark" d="M494 418 C502 406 508 393 509 381" fill="none" stroke="#BE895A" stroke-width="8" stroke-linecap="round" /></g>
+      <g id="c3-face-pip">
+          <path id="c3-brow-left" d="M279 252 C296 235 320 232 341 246" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round" />
+          <path id="c3-brow-right" d="M386 225 C407 204 438 211 457 234" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round" />
+          <path id="c3-eye-left" d="M280 293 C283 271 300 257 321 260 C343 263 355 280 353 301 C351 322 335 337 315 334 C294 332 279 314 280 293 Z" fill="#FFF4E0" />
+          <path id="c3-eye-right" d="M389 279 C393 255 413 243 436 249 C459 255 471 275 466 298 C462 320 445 333 424 328 C402 324 386 302 389 279 Z" fill="#FFF4E0" />
+          <ellipse id="c3-pupil-left" cx="327" cy="293" rx="18" ry="23" fill="#2B1B17" />
+          <ellipse id="c3-pupil-right" cx="438" cy="280" rx="18" ry="23" fill="#2B1B17" />
+          <circle cx="321" cy="284" r="6.3" fill="#FFFCF3" /><circle cx="432" cy="271" r="6.3" fill="#FFFCF3" />
+          <circle cx="334" cy="302" r="2.7" fill="#FFFCF3" /><circle cx="445" cy="289" r="2.7" fill="#FFFCF3" />
+          <path id="c3-knowing-smile" d="M338 376 C362 393 389 392 416 369 C414 393 394 409 370 407 C354 405 343 394 338 376 Z" fill="#2B1B17" />
+          <path id="c3-smile-glint" d="M363 397 C380 403 398 393 407 385" fill="none" stroke="#FFF4E0" stroke-width="5.5" stroke-linecap="round" />
+          <path id="c3-cheek-mark" d="M271 353 C282 346 293 349 300 356" fill="none" stroke="#BE895A" stroke-width="6" stroke-linecap="round" opacity=".88" />
+        </g>
+    </g></g>
+  <path d="M1238 783 H1698" stroke="#E4DBCF" stroke-width="1.2" />
+  <text x="1238" y="834" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#2B1B17">Pip</text>
+  <text x="1698" y="829" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.3" text-anchor="end" fill="#8C7561">CONCEPT 03</text>
+  <text x="1238" y="872" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="16" fill="#5B4739">Curious, cheeky, alive in a glance.</text>
+  <text x="1238" y="913" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="12.5" fill="#8C7561">SIGNATURE</text>
+  <text x="1238" y="937" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="15" fill="#5B4739">Diagonal groove / lifted brow</text>
+</g>
+<g id="sheet-footer" font-family="Avenir Next, Montserrat, Arial, sans-serif">
+ <text x="74" y="1132" font-size="12" letter-spacing="1.8" fill="#8C7561">VECTOR EXPLORATION  •  FLAT COLOR  •  TRANSPARENT ISOLATED ARTWORK INCLUDED</text>
+ <text x="1726" y="1132" font-size="12" text-anchor="end" fill="#8C7561">RUMA COFFEE / INTERNAL REVIEW</text>
+</g></svg>

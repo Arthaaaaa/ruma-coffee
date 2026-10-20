@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Tavi — The Tilt</title>
+  <desc id="desc">A tall, lively creature with one swept-back crest, a curious gaze, and a bright, self-assured expression.</desc>
+  <g id="character-tavi">
+    <path id="body" fill="#557568" d="M155 319c-34-8-55-32-57-67-2-31 13-57 37-76-12-26-7-55 13-74 15-14 35-20 57-15 8-30 33-51 62-48 24 3 39 21 39 45 0 18-9 34-25 46 19 5 34 17 42 35 11 25 5 53-16 73 8 19 7 39-4 57-15 24-43 36-79 35-19 19-43 29-69 29-24 0-44-7-60-22 19 3 40-3 60-18Z"/>
+    <path id="crest-highlight" fill="#769684" d="M202 91c8-24 27-38 48-38 14 0 24 8 27 20-20-7-41 3-53 25-9 16-12 34-9 49-15-12-21-35-13-56Z"/>
+    <path id="face-mask" fill="#769684" d="M132 205c22-22 53-34 84-31 29 3 52 17 65 39 10 18 11 38 2 57-15 30-49 47-88 44-31-2-53-17-63-41-9-22-8-48 0-68Z"/>
+    <g id="face">
+      <path d="M157 209q13-15 28-12" fill="none" stroke="#26342E" stroke-width="7" stroke-linecap="round"/>
+      <path d="M222 199q20-16 37 1" fill="none" stroke="#26342E" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="171" cy="230" rx="13" ry="18" fill="#FFF2DE"/>
+      <ellipse cx="243" cy="225" rx="20" ry="24" fill="#FFF2DE"/>
+      <ellipse cx="174" cy="232" rx="7" ry="12" fill="#26342E"/>
+      <ellipse cx="239" cy="229" rx="12" ry="17" fill="#26342E"/>
+      <circle cx="177" cy="227" r="3" fill="#FFF2DE"/>
+      <circle cx="244" cy="223" r="4" fill="#FFF2DE"/>
+      <path id="mouth" d="M180 269q28 18 54-9" fill="none" stroke="#26342E" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <path id="tail-tip" fill="#557568" d="M307 307c19 7 30 22 28 39-2 13-11 22-24 23 12-10 12-24 2-35-7-8-18-12-30-13l24-14Z"/>
+  </g>
+</svg>

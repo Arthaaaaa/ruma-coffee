@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ruma Coffee mascot concept 03: Good Company</title>
+  <desc id="desc">A taller, off-center coffee bean with a looping groove, bright curious gaze, and a quietly cheeky smile.</desc>
+  <g id="mascot-good-company">
+    <path id="bean-silhouette" fill="#493025" d="M239 58c101-3 175 78 179 194 4 116-52 204-150 214-94 10-169-68-174-186C88 160 144 62 239 58Z"/>
+    <path id="bean-groove" fill="#B77A4A" d="M273 82c-30 37-46 83-46 136 0 63 17 120 50 173-16-64-19-117-8-163 10-49 30-94 58-133-17-6-35-11-54-13Z"/>
+    <g id="brows" fill="none" stroke="#281A15" stroke-width="9" stroke-linecap="round">
+      <path d="M148 222q24-18 50-3"/><path d="M296 217q22-16 46-2"/>
+    </g>
+    <g id="eyes">
+      <ellipse cx="174" cy="259" rx="23" ry="30" fill="#F5EBDD"/>
+      <ellipse cx="321" cy="256" rx="23" ry="30" fill="#F5EBDD"/>
+      <ellipse cx="181" cy="264" rx="12" ry="19" fill="#281A15"/>
+      <ellipse cx="326" cy="261" rx="12" ry="19" fill="#281A15"/>
+      <circle cx="185" cy="255" r="5" fill="#F5EBDD"/>
+      <circle cx="330" cy="252" r="5" fill="#F5EBDD"/>
+    </g>
+    <path id="smile" d="M214 321q35 29 72 5" fill="none" stroke="#281A15" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

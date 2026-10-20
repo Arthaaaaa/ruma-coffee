@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="120 50 560 560" role="img" aria-labelledby="title desc">
+  <title id="title">Ruma Coffee mascot concept 2: NOOK</title>
+  <desc id="desc">A broader, gently cleft silhouette; its curved groove cradles the face like a quiet embrace. Transparent background; clean flat vector artwork.</desc>
+  <g id="artwork"><g id="mascot-nook" role="img" aria-label="NOOK, an anthropomorphic coffee bean mascot for Ruma Coffee">
+      <g id="body-and-groove"><path id="bean-silhouette" d="M393 142 C440 141 470 163 489 196 C524 194 556 212 575 244 C600 286 594 342 568 387 C539 439 478 481 413 494 C341 509 268 481 222 435 C181 394 177 335 195 290 C211 248 244 221 286 213 C306 172 343 148 393 142 Z" fill="#5E392B"/><path id="left-bean-light" d="M379 160 C338 166 309 193 291 226 C251 238 221 272 214 310 C204 358 222 400 255 433 C284 462 325 477 359 475 C308 443 283 406 282 360 C280 316 305 268 339 238 C360 220 382 187 379 160 Z" fill="#79503A" opacity=".65"/><g id="bean-groove"><path d="M413 162 C373 208 368 244 384 270 C400 293 402 315 385 337 C391 355 401 368 405 386 C411 405 411 423 411 441 C412 460 404 481 411 499" fill="none" stroke="#E6D1B4" stroke-width="31" stroke-linecap="round"/><path d="M413 162 C373 208 368 244 384 270 C400 293 402 315 385 337 C391 355 401 368 405 386 C411 405 411 423 411 441 C412 460 404 481 411 499" fill="none" stroke="#41281F" stroke-width="10" stroke-linecap="round"/></g><path id="signature-seed-mark" d="M237 404 C247 416 260 425 273 429" fill="none" stroke="#9BAA8D" stroke-width="8" stroke-linecap="round"/></g>
+      <g id="face-nook">
+          <path id="brow-left" d="M262 276 C283 255 310 254 331 269" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round"/>
+          <path id="brow-right" d="M430 270 C450 251 478 256 496 276" fill="none" stroke="#2B1B17" stroke-width="9" stroke-linecap="round"/>
+          <path id="eye-left" d="M260 310 C262 287 279 274 301 277 C323 280 337 297 333 319 C329 341 313 352 292 348 C271 344 258 330 260 310 Z" fill="#FFF2DD"/>
+          <path id="eye-right" d="M428 308 C431 285 449 272 472 276 C494 280 507 297 503 319 C499 340 482 351 461 347 C439 343 426 329 428 308 Z" fill="#FFF2DD"/>
+          <ellipse id="pupil-left" cx="302" cy="313" rx="19" ry="23" fill="#2B1B17"/>
+          <ellipse id="pupil-right" cx="470" cy="312" rx="19" ry="23" fill="#2B1B17"/>
+          <circle cx="296" cy="304" r="6.5" fill="#FFFCF3"/><circle cx="464" cy="303" r="6.5" fill="#FFFCF3"/>
+          <circle cx="309" cy="322" r="2.7" fill="#FFFCF3"/><circle cx="477" cy="321" r="2.7" fill="#FFFCF3"/>
+          <path id="wide-smile" d="M336 379 C360 402 390 412 417 404 C439 398 454 386 464 376 C462 406 436 428 404 431 C371 433 347 410 336 379 Z" fill="#2B1B17"/>
+          <path id="smile-glint" d="M363 410 C389 426 423 420 442 402" fill="none" stroke="#FFF2DD" stroke-width="6" stroke-linecap="round"/>
+          <path id="left-cheek" d="M241 365 C252 357 264 359 271 366" fill="none" stroke="#9BAA8D" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+          <path id="right-cheek" d="M498 364 C509 358 520 361 526 369" fill="none" stroke="#9BAA8D" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+        </g>
+    </g></g>
+</svg>

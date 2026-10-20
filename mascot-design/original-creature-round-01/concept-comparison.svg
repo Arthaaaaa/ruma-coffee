@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ruma Coffee original creature mascot directions</title>
+  <desc id="desc">Three distinct original mascot directions: Muru, a soft folded creature; Tavi, a tall curious creature; and Kasa, a curled creature that holds a pocket of space.</desc>
+  <rect width="1560" height="900" fill="#F1ECE2"/>
+  <text x="780" y="64" text-anchor="middle" fill="#382C25" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3.2">RUMA COFFEE  /  ORIGINAL CREATURE STUDIES</text>
+  <text x="780" y="111" text-anchor="middle" fill="#382C25" font-family="Georgia, serif" font-size="38">A small presence. Room to be yourself.</text>
+  <g id="concept-a" transform="translate(54 152)">
+    <rect width="462" height="690" rx="22" fill="#FBF8F1"/>
+    <g transform="translate(49 22) scale(.91)">
+      <path fill="#A95F43" d="M123 300c-33-14-53-45-48-79 6-38 35-67 75-78 9-34 40-56 75-53 35 3 58 30 55 64 34 6 60 32 61 65 1 35-23 62-58 74-38 20-117 22-160 7Z"/>
+      <path fill="#A95F43" d="M120 265c-21 25-51 31-70 17-17-13-20-35-8-53 3 21 16 32 32 31 14-1 26-11 34-25 7 8 11 18 12 30Z"/>
+      <path fill="#D99A6B" d="M103 248c21 10 45 12 68 5 28-8 49-26 59-52 6-15 8-31 4-48 18 12 29 31 29 52 0 27-14 52-37 69-20 15-47 23-74 21-23-2-42-11-54-26-8-9-13-19-14-31 6 4 12 7 19 10Z"/>
+      <path d="M127 177q18-15 39-7M208 169q20-10 37 3" fill="none" stroke="#382722" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="148" cy="202" rx="18" ry="23" fill="#FFF4E4"/><ellipse cx="226" cy="198" rx="17" ry="22" fill="#FFF4E4"/>
+      <ellipse cx="154" cy="205" rx="10" ry="15" fill="#382722"/><ellipse cx="222" cy="202" rx="10" ry="15" fill="#382722"/>
+      <circle cx="157" cy="199" r="4" fill="#FFF4E4"/><circle cx="225" cy="196" r="4" fill="#FFF4E4"/>
+      <path d="M166 239q21 17 42 0" fill="none" stroke="#382722" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <text x="34" y="460" fill="#A95F43" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">A · SOFT &amp; ORGANIC</text>
+    <text x="34" y="501" fill="#382C25" font-family="Georgia, serif" font-size="32">Muru — Open Fold</text>
+    <text x="34" y="543" fill="#4F453D" font-family="Arial, sans-serif" font-size="17">A gently lopsided companion with a</text>
+    <text x="34" y="568" fill="#4F453D" font-family="Arial, sans-serif" font-size="17">fold that turns inward like a welcome.</text>
+    <text x="34" y="624" fill="#7A6454" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">SIGNATURE</text>
+    <text x="34" y="648" fill="#382C25" font-family="Arial, sans-serif" font-size="15">One shoulder curls softly across its body.</text>
+  </g>
+  <g id="concept-b" transform="translate(549 152)">
+    <rect width="462" height="690" rx="22" fill="#FBF8F1"/>
+    <g transform="translate(48 17) scale(.92)">
+      <path fill="#557568" d="M155 319c-34-8-55-32-57-67-2-31 13-57 37-76-12-26-7-55 13-74 15-14 35-20 57-15 8-30 33-51 62-48 24 3 39 21 39 45 0 18-9 34-25 46 19 5 34 17 42 35 11 25 5 53-16 73 8 19 7 39-4 57-15 24-43 36-79 35-19 19-43 29-69 29-24 0-44-7-60-22 19 3 40-3 60-18Z"/>
+      <path fill="#769684" d="M202 91c8-24 27-38 48-38 14 0 24 8 27 20-20-7-41 3-53 25-9 16-12 34-9 49-15-12-21-35-13-56Z"/>
+      <path fill="#769684" d="M132 205c22-22 53-34 84-31 29 3 52 17 65 39 10 18 11 38 2 57-15 30-49 47-88 44-31-2-53-17-63-41-9-22-8-48 0-68Z"/>
+      <path d="M157 209q13-15 28-12M222 199q20-16 37 1" fill="none" stroke="#26342E" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="171" cy="230" rx="13" ry="18" fill="#FFF2DE"/><ellipse cx="243" cy="225" rx="20" ry="24" fill="#FFF2DE"/>
+      <ellipse cx="174" cy="232" rx="7" ry="12" fill="#26342E"/><ellipse cx="239" cy="229" rx="12" ry="17" fill="#26342E"/>
+      <circle cx="177" cy="227" r="3" fill="#FFF2DE"/><circle cx="244" cy="223" r="4" fill="#FFF2DE"/>
+      <path d="M180 269q28 18 54-9" fill="none" stroke="#26342E" stroke-width="7" stroke-linecap="round"/>
+      <path fill="#557568" d="M307 307c19 7 30 22 28 39-2 13-11 22-24 23 12-10 12-24 2-35-7-8-18-12-30-13l24-14Z"/>
+    </g>
+    <text x="34" y="460" fill="#557568" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">B · QUIRKY &amp; EXPRESSIVE</text>
+    <text x="34" y="501" fill="#382C25" font-family="Georgia, serif" font-size="32">Tavi — The Tilt</text>
+    <text x="34" y="543" fill="#4F453D" font-family="Arial, sans-serif" font-size="17">A bright-eyed oddball, always the first</text>
+    <text x="34" y="568" fill="#4F453D" font-family="Arial, sans-serif" font-size="17">to notice something new in the room.</text>
+    <text x="34" y="624" fill="#7A6454" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">SIGNATURE</text>
+    <text x="34" y="648" fill="#382C25" font-family="Arial, sans-serif" font-size="15">A single swept crest and uneven gaze.</text>
+  </g>
+  <g id="concept-c" transform="translate(1044 152)">
+    <rect width="462" height="690" rx="22" fill="#FBF8F1"/>
+    <g transform="translate(43 23) scale(.94)">
+      <path fill="#C59555" d="M307 291c-28 31-72 47-119 43-63-5-112-39-131-88-19-49-5-104 36-139 39-34 96-44 145-25 38 15 62 44 66 76 4 26-6 49-27 64-20 15-47 18-71 9 15-9 24-25 22-41-2-24-24-41-52-41-37 0-69 25-73 59-5 39 24 74 62 84 51 14 107-2 139-39 13 20 14 42 3 58Z"/>
+      <path fill="#F1D6A8" d="M159 162c17-17 42-25 65-20 26 5 43 23 45 46 2 26-17 48-45 54-27 6-56-5-68-27-10-18-8-39 3-53Z"/>
+      <path d="M157 187q16-12 32-6M213 184q17-9 31 2" fill="none" stroke="#493426" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="176" cy="211" rx="15" ry="20" fill="#FFF5E6"/><ellipse cx="231" cy="210" rx="14" ry="19" fill="#FFF5E6"/>
+      <ellipse cx="181" cy="213" rx="8" ry="13" fill="#493426"/><ellipse cx="228" cy="212" rx="8" ry="13" fill="#493426"/>
+      <circle cx="184" cy="208" r="3.5" fill="#FFF5E6"/><circle cx="231" cy="207" r="3.5" fill="#FFF5E6"/>
+      <path d="M183 245q18 15 37 1" fill="none" stroke="#493426" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <text x="34" y="460" fill="#9A7135" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">C · UNEXPECTED &amp; ICONIC</text>
+    <text x="34" y="501" fill="#382C25" font-family="Georgia, serif" font-size="32">Kasa — The Orbit</text>
+    <text x="34" y="543" fill="#4F453D" font-family="Arial, sans-serif" font-size="17">An open curl that makes a pocket of</text>
+    <text x="34" y="568" fill="#4F453D" font-family="Arial, sans-serif" font-size="17">space and holds a face inside it.</text>
+    <text x="34" y="624" fill="#7A6454" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">SIGNATURE</text>
+    <text x="34" y="648" fill="#382C25" font-family="Arial, sans-serif" font-size="15">A loose orbit that never closes shut.</text>
+  </g>
+  <text x="780" y="876" text-anchor="middle" fill="#806D5E" font-family="Arial, sans-serif" font-size="13">Provisional codenames · first concept round · no coffee, home, or heart symbols</text>
+</svg>

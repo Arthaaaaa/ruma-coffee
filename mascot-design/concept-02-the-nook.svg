@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ruma Coffee mascot concept 02: The Nook</title>
+  <desc id="desc">A broad, settled coffee bean whose sweeping groove frames a lively face and signals a comfortable place to land.</desc>
+  <g id="mascot-the-nook">
+    <path id="bean-silhouette" fill="#5A3526" d="M235 70c104-12 190 51 201 153 12 109-55 203-164 225-105 21-200-38-218-143C34 201 92 99 190 76c16-4 30-6 45-6Z"/>
+    <path id="bean-groove" fill="#C28B5D" d="M260 95c-31 33-47 73-48 119-2 65 22 121 69 173-22-59-29-109-20-154 9-47 29-87 60-120-19-9-39-15-61-18Z"/>
+    <g id="brows" fill="none" stroke="#2D1B16" stroke-width="10" stroke-linecap="round">
+      <path d="M135 225q30-24 60-5"/><path d="M304 220q30-19 60 4"/>
+    </g>
+    <g id="eyes">
+      <ellipse cx="174" cy="264" rx="27" ry="34" fill="#F5EBDD"/>
+      <ellipse cx="337" cy="264" rx="27" ry="34" fill="#F5EBDD"/>
+      <ellipse cx="182" cy="269" rx="14" ry="21" fill="#2D1B16"/>
+      <ellipse cx="329" cy="269" rx="14" ry="21" fill="#2D1B16"/>
+      <circle cx="187" cy="259" r="5" fill="#F5EBDD"/>
+      <circle cx="334" cy="259" r="5" fill="#F5EBDD"/>
+    </g>
+    <path id="smile" d="M203 331q50 27 101-4" fill="none" stroke="#2D1B16" stroke-width="11" stroke-linecap="round"/>
+  </g>
+</svg>

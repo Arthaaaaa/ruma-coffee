@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ruma Coffee mascot concept 01: Welcome Bean</title>
+  <desc id="desc">A gently leaning coffee bean with a curved groove, alert eyes, and a warm, attentive smile.</desc>
+  <g id="mascot-welcome-bean">
+    <path id="bean-silhouette" fill="#4B2D22" d="M254 66C345 55 420 119 433 220c15 116-51 229-150 243-93 13-178-66-190-176C80 177 147 78 254 66Z"/>
+    <path id="bean-groove" fill="#B77A4A" d="M268 92c-35 38-54 87-56 143-2 60 17 115 57 168-20-56-27-108-20-157 7-53 25-101 55-143-12-5-24-9-36-11Z"/>
+    <g id="brows" fill="none" stroke="#2D1B16" stroke-width="9" stroke-linecap="round">
+      <path d="M158 225q22-20 48-7"/><path d="M300 215q24-12 45 7"/>
+    </g>
+    <g id="eyes">
+      <ellipse cx="183" cy="260" rx="24" ry="31" fill="#F5EBDD"/>
+      <ellipse cx="322" cy="260" rx="24" ry="31" fill="#F5EBDD"/>
+      <ellipse cx="189" cy="264" rx="13" ry="19" fill="#2D1B16"/>
+      <ellipse cx="316" cy="264" rx="13" ry="19" fill="#2D1B16"/>
+      <circle cx="193" cy="255" r="5" fill="#F5EBDD"/>
+      <circle cx="320" cy="255" r="5" fill="#F5EBDD"/>
+    </g>
+    <path id="smile" d="M213 321q39 37 79-2" fill="none" stroke="#2D1B16" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
