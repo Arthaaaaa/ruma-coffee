@@ -2010,14 +2010,21 @@
     content: "";
   }
 
-  .menu-page .menu-product .menu-favorite>svg {
+  .menu-page .menu-product .menu-favorite>.community__icon-outline,
+  .menu-page .menu-product .menu-favorite>.community__icon-filled {
     position: relative;
     z-index: 1;
     width: 20px;
     height: 20px;
   }
 
+  .menu-page .menu-product .menu-favorite .community__icon-filled {
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
   .menu-page .menu-product .menu-favorite .community__icon-celebrate {
+    display: none !important;
     width: 36px;
     height: 36px;
   }
@@ -2050,6 +2057,11 @@
     border-radius: 999px;
     content: "";
     pointer-events: none;
+  }
+
+  .menu-product__heading .button .gooey-button__blobs {
+    inset: 4px 0;
+    border-radius: 999px;
   }
 
   .menu-product__heading .button--add {

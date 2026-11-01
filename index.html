@@ -6,6 +6,12 @@
     <meta name="theme-color" content="#e7e2d5" />
     <meta name="description" content="Ruma Coffee, tempat untuk mengambil jeda, menikmati kopi, dan merasa pulang." />
     <title>Ruma Coffee | A Place to Come Home</title>
+    <script>
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      window.addEventListener('pageshow', () => {
+        if (!location.hash) window.scrollTo(0, 0);
+      });
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />

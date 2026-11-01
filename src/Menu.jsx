@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import './menu.css';
 import SiteHeader from './SiteHeader.jsx';
@@ -176,6 +176,10 @@ export default function MenuPage({ onHome, onNavigate }) {
   const [paid, setPaid] = useState(false);
   const [orderStep, setOrderStep] = useState(0);
   const [isPrinting, setIsPrinting] = useState(false);
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [view]);
 
   const signatures = menu.filter((item) => item.tags.includes('Signature'));
   useEffect(() => {
